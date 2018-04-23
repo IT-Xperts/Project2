@@ -37,7 +37,7 @@ main,
 menu,
 nav,
 section,
-summary {
+summary{
   display: block;
 }
 
@@ -58,6 +58,7 @@ html {
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
   line-height: 1.2631578947em; /* ~ 24px base line height */
+  background-color: #FFD3A2;
 }
 b,
 strong {
@@ -149,20 +150,40 @@ nav {
 #instructor {
   margin-top: 2.5263157895em;
 }
-#w2,
-#w4,
-#w6,
-#w8,
-#w10,
-#w12,
-#w14,
-#w16,
-#labs_t,
-#pro1_t,
-#pro2_t,
+#w1,#w2,#w3,
+#w4,#w5,#w6,
+#w7,#w8,#w9,
+#w10,#w11,#w12,
+#w13,#w14,#w15,
+#w16,#labs_t,
+#pro1_t,#pro2_t,
 #pro3_t{
   background-color: #FFBD73;
 }
+
+#ca_head,
+#ca_body{
+  background-color: #FFD3A2;
+}
+.panel-group{
+  background-color: #FFD3A2;
+}
+.panel-title{
+  background-color: #f06c94;
+}
+
+#w1_t,#w2_t,#w3_t,
+#w4_t,#w5_t,#w6_t,
+#w7_t,#w8_t,#w9_t,
+#w10_t,#w11_t,#w12_t,
+#w13_t,#w14_t,#w15_t,
+#w16_t{
+  text-align: center;
+  display: block;
+  background-color: #FFD3A2;
+}
+
+
 
 /* ========== Modules ========== */
 
